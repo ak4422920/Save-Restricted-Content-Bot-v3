@@ -22,7 +22,7 @@ API_HASH = os.getenv("API_HASH", "7ea2149629e445936619f06a3c0dc716")
 BOT_TOKEN = os.getenv("BOT_TOKEN", "")
 MONGO_DB = os.getenv("MONGO_DB", "mongodb+srv://saver:saver@cluster0.ftlr8.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 OWNER_ID = list(map(int, os.getenv("OWNER_ID", "7251898668").split())) # list seperated via space
-DB_NAME = os.getenv("DB_NAME", "telegram_downloader")
+DB_NAME = os.getenv("DB_NAME", "tele")
 STRING = os.getenv("STRING", None) # optional
 LOG_GROUP = int(os.getenv("LOG_GROUP", "-1002213684702")) # optional with -100
 FORCE_SUB = int(os.getenv("FORCE_SUB", "-1002442422204")) # optional with -100
